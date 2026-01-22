@@ -1,0 +1,114 @@
+.caixa-explore {
+  max-width: 192rem;
+  margin: 0 auto;
+}
+
+.caixa-conteudo-explore {
+  padding-left: 8rem;
+  padding-right: 8rem;
+  padding-bottom: 8rem;
+}
+
+.produto-card {
+  position: relative;
+  display: block;
+}
+
+.explore-mais-h2 {
+  text-transform: uppercase;
+  font-size: 5rem;
+  color: #ffffff;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.caixa-produtos {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 3rem;
+}
+
+.produto-explore-img {
+  width: 100%;
+  max-width: 37.167rem;
+  height: auto;
+  aspect-ratio: 37.167 / 20.819;
+  border-radius: 0.8rem;
+  display: block;
+  border: 0.1rem solid transparent;
+  transition:
+    transform 0.4s ease-out,
+    border-color 0.4s ease-out;
+}
+
+.produto-explore-img:hover {
+  transform: scale(1.01);
+  border-color: #ffffff;
+}
+
+.span-explore,
+.span-artes {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  max-width: 19.511rem;
+  font-size: 2rem;
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.span-trilha-sonora {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  max-width: 19.511rem;
+  font-size: 2rem;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.caixa-18 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding-bottom: 8rem;
+}
+
+.caixa-link-18 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  width: 28rem;
+  height: 15.5rem;
+  background-color: #000;
+  border: solid 0.1rem #2d2d2d;
+  border-radius: 0.3rem;
+}
+
+.img-18 {
+  max-width: 7.2rem;
+  height: 10.8rem;
+}
+
+.sangue {
+  max-width: 15.6rem;
+  font-size: 1.1rem;
+  color: #fff;
+  line-height: 1.5;
+  font-family: "Inter", sans-serif;
+}

@@ -1,0 +1,48 @@
+@media screen and (max-width: 1023px) {
+  .cabecalho {
+    position: relative;
+  }
+
+  .cabecalho-container {
+    padding: 0rem 2.4rem;
+    height: 8rem;
+  }
+
+  .vertical,
+  .Compre-ja,
+  .rockstar-container {
+    display: none;
+  }
+
+  .linha-horizontal-hamburguer {
+    display: flex;
+  }
+
+  .logo-red-dead-redemption-cabecalho {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .linha-horizontal-hamburguer {
+    width: 2rem;
+    height: 0.1rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .logo-red-dead-redemption-cabecalho {
+    max-width: 25.4rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .logo-red-dead-redemption-cabecalho {
+    max-width: 20rem;
+    height: 3.2rem;
+  }
+}

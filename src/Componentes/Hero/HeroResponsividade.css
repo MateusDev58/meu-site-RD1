@@ -1,0 +1,200 @@
+@media (max-width: 1301px) {
+  .caixa-plataforma {
+    transform: translateX(0);
+    right: 1rem;
+    margin: 0 1rem 1rem 1rem;
+  }
+}
+
+@media (max-width: 1109px) {
+  .caixa-hero {
+    height: clamp(24rem, 50vw, 34rem);
+    margin-top: clamp(6rem, 23vw, 21rem);
+  }
+}
+
+@media (max-width: 1023px) {
+  .caixa-hero {
+    margin-top: clamp(6rem, 10vw, 21rem);
+  }
+
+  .caixa-logo {
+    gap: 2rem;
+    padding: 0 0 0 2.66rem;
+  }
+
+  .compre-ja-hero {
+    width: 10.258rem;
+    height: 4.5rem;
+    padding: 0rem 1.8rem;
+    font-size: 1.8rem;
+  }
+
+  .ver-trailer {
+    width: 17.528rem;
+    height: 4.5rem;
+    font-size: 1.8rem;
+    padding: 0rem 1.8rem;
+  }
+
+  .icone-play-img {
+    width: 1.727rem;
+    height: 1.8rem;
+  }
+
+  .caixa-plataforma {
+    width: 25.2rem;
+    height: 20.356rem;
+    padding: 1.8rem;
+    margin: 1.8rem;
+    gap: 1rem;
+  }
+  .ja-disponivel {
+    font-size: 1.35rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .caixa-hero {
+    height: clamp(24rem, 50vw, 29rem);
+  }
+}
+
+@media (max-width: 768px) {
+  .caixa-hero {
+    height: clamp(24rem, 50vw, 26rem);
+  }
+}
+
+@media (max-width: 767px) {
+  .faixa-preta-hero,
+  .caixa-botao,
+  .caixa-plataforma,
+  .john-marston {
+    display: none;
+  }
+
+  .caixa-hero {
+    position: relative;
+    width: 100vw;
+    height: auto;
+    overflow: visible;
+    padding: 0;
+    min-height: auto;
+    height: auto;
+    margin-top: 5rem;
+    background: none !important;
+  }
+
+  .caixa-hero::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: clamp(12rem, 26vw, 22rem);
+    background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.72) 0%,
+      rgba(0, 0, 0, 0.48) 45%,
+      rgba(0, 0, 0, 0.22) 70%,
+      rgba(0, 0, 0, 0) 100%
+    );
+    z-index: 4;
+    pointer-events: none;
+  }
+
+  .hero-bg {
+    background-image: url("/fundo-celular.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: auto;
+    aspect-ratio: 1080 / 1350;
+  }
+
+  .hero-container {
+    position: relative;
+    height: auto;
+    z-index: 5;
+    margin: 0;
+    padding: 0;
+  }
+
+  .caixa-john {
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+  }
+
+  .john-mobile {
+    display: block;
+    width: clamp(52rem, 96vw, 90rem);
+    height: auto;
+    object-fit: contain;
+  }
+
+  .caixa-logo {
+    position: absolute;
+    bottom: 0rem;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0;
+    z-index: 6;
+  }
+
+  .logo-red-dead-hero-img {
+    position: absolute;
+    bottom: 0rem;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0;
+    z-index: 6;
+    width: min(57.525rem, 80vw);
+    height: auto;
+    display: block;
+  }
+
+  .caixa-plataforma-celular {
+    display: flex;
+  }
+
+  .compre-ja-hero,
+  .ver-trailer {
+    width: min(70.3rem, 100%);
+    height: 4.8rem;
+    font-size: 2.3rem;
+    padding: 0 1.8rem;
+    max-width: 100%;
+  }
+
+  .icone-play-img {
+    width: 2.536rem;
+    height: 1.6rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .john-mobile {
+    width: min(111vw, 60rem);
+  }
+}
+
+@media (max-width: 414px) {
+  .john-mobile {
+    width: min(110vw, 60rem);
+  }
+}
+
+@media (max-width: 430px) {
+  .john-mobile {
+    width: min(110vw, 60rem);
+  }
+}

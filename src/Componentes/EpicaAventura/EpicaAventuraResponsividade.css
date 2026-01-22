@@ -1,0 +1,83 @@
+@media screen and (min-width: 1600px) {
+  .caixa-1,
+  .caixa-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 5rem;
+  }
+
+  .caixa-2 .hero-media {
+    grid-column: 1;
+  }
+
+  .caixa-2 .caixa-conteudo {
+    grid-column: 2;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .caixa-1,
+  .caixa-2,
+  .caixa-3 {
+    padding: 7.2rem 7.2rem;
+  }
+
+  .titulo-h2 {
+    font-size: 4.5rem;
+  }
+
+  .texto-epica-p {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .caixa-1,
+  .caixa-2,
+  .caixa-3 {
+    padding: 3.2rem 3.2rem;
+  }
+
+  .titulo-h2 {
+    font-size: 4rem;
+  }
+
+  .texto-epica-p {
+    font-size: 1.6rem;
+  }
+
+  .logo-red-dead-epica {
+    height: 2.8rem;
+  }
+
+  .logo-red-dead-undead-nightmare {
+    height: 4.8rem;
+  }
+}
+
+@media screen and (max-width: 517px) {
+  .caixa-1 {
+    background-size: 100% 59%;
+  }
+
+  .caixa-1::before {
+    background-position: center 40%;
+  }
+}
+
+@media screen and (max-width: 423px) {
+  .caixa-1 {
+    background-size: 100% 67%;
+  }
+
+  .caixa-1::before {
+    background-position: center 30%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .caixa-3::after {
+    bottom: -2rem;
+  }
+}

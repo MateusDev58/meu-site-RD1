@@ -1,0 +1,177 @@
+.caixa-hero {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 192rem;
+  background: url("/imagem-fundo.jpg") no-repeat center bottom / cover;
+  height: clamp(32rem, 42vw, 43rem);
+  position: relative;
+  margin-top: clamp(6rem, 15vw, 21rem);
+}
+
+.hero-container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.hero-bg-mobile,
+.john-mobile {
+  display: none;
+}
+
+.caixa-logo {
+  position: absolute;
+  top: 18%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 0 0 5.66rem;
+  z-index: 2;
+}
+
+.logo-red-dead-hero-img {
+  width: clamp(20rem, 35vw, 40rem);
+  height: auto;
+  object-fit: contain;
+}
+
+.caixa-botao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.compre-ja-hero {
+  width: 100%;
+  max-width: 15.375rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 4rem;
+  font-size: 2.3rem;
+  background: #fff;
+  color: #121212;
+  border-radius: 0.5rem;
+  transition:
+    background-color 0.4s ease,
+    color 0.4s ease;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-weight: 600;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.compre-ja-hero:hover {
+  color: #fff;
+  background: #cc0000;
+}
+
+.ver-trailer {
+  width: 100%;
+  max-width: 23.453rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 4rem;
+  font-size: 2.3rem;
+  background: #0c0c0c;
+  color: #fff;
+  border: 0.1rem solid #fff;
+  border-radius: 0.5rem;
+  transition:
+    background-color 0.4s ease,
+    border-color 0.4s ease;
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.ver-trailer:hover {
+  background: #cc0000;
+  border: none;
+}
+
+.icone-play-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0.8rem;
+  max-width: 1.919rem;
+  height: 2rem;
+}
+
+.caixa-john {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+.john-marston {
+  position: absolute;
+  bottom: 0;
+  transform: translate(-18%);
+  height: clamp(32rem, 42vw, 53rem);
+  filter: brightness(1.02) contrast(1.12) saturate(0.9);
+}
+
+.caixa-plataforma {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 5rem;
+  max-width: 30rem;
+  padding: 2rem;
+  margin: 2rem;
+  background: linear-gradient(45deg, #3e281c 15%, #370d10);
+  z-index: 3;
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  transform: translateX(20%);
+}
+
+.ja-disponivel {
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #ffffff;
+  max-width: 26rem;
+  line-height: 1.5;
+}
+
+.caixa-plataforma-celular {
+  display: none;
+  position: relative;
+  flex-direction: column;
+  gap: 1.6rem;
+  background-color: #000000;
+  padding: 1.6rem 3.2rem 4.8rem;
+  border-radius: 0;
+  width: 100%;
+  max-width: 100%;
+  z-index: 3;
+  box-shadow: 0 -32px 48px rgba(0, 0, 0, 0.96);
+}
+
+.caixa-plataforma-texto {
+  display: flex;
+  gap: 2rem;
+}
+
+.plataformas-disponivel-p {
+  font-size: 1.2rem;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #ffffff;
+}

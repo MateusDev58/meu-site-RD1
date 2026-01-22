@@ -1,0 +1,201 @@
+.caixa-loja {
+  max-width: 192rem;
+  margin: 0 auto;
+  padding: 8rem 0rem;
+}
+
+.caixa-loja-conteudo {
+  position: relative;
+  padding: 0 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.caixa-loja-conteudo::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("/imagem-fundo-meio.png");
+  background-size: cover;
+  background-position: center;
+  -webkit-mask-image: url("/background-loja-mask.png");
+  mask-image: url("/background-loja-mask.png");
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.caixa-loja-conteudo > * {
+  position: relative;
+  z-index: 10;
+}
+
+.caixa-adquira {
+  padding: 8rem 0rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.adquira-h2 {
+  font-size: 5rem;
+  color: #ffffff;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.3rem;
+}
+
+.texto-loja {
+  width: 100%;
+  font-size: 2rem;
+  color: #e8e8e8;
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  max-width: 54.05rem;
+}
+
+.capa-red-dead-redemption-e-undead-nightmare {
+  width: 100%;
+  max-width: 54.05rem;
+  height: auto;
+  display: block;
+}
+
+.caixa-links-loja {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.compre-ja-loja-h2 {
+  font-size: 1.8rem;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  text-transform: uppercase;
+}
+
+.caixa-lojas-plataformas {
+  width: 100%;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.lojas-plataformas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 26.775rem;
+  height: 7rem;
+  padding: 0rem 6rem;
+  background-color: #292626;
+  border-radius: 0.5rem;
+  transition:
+    background-color 0.25s ease,
+    filter 0.25s ease;
+}
+
+.lojas-plataformas[data-plataforma="pc"]:hover {
+  background: #fcaf17;
+}
+
+.lojas-plataformas[data-plataforma="pc"]:hover img,
+.lojas-plataformas[data-plataforma="appstore"]:hover img,
+.lojas-plataformas[data-plataforma="googleplay"]:hover img {
+  filter: brightness(0);
+}
+
+.lojas-plataformas[data-plataforma="ps5"]:hover,
+.lojas-plataformas[data-plataforma="ps4"]:hover {
+  background: #00439c;
+}
+
+.lojas-plataformas[data-plataforma="xboxseries"]:hover,
+.lojas-plataformas[data-plataforma="xbox"]:hover {
+  background: #387a26;
+}
+
+.lojas-plataformas[data-plataforma="switch2"]:hover,
+.lojas-plataformas[data-plataforma="switch"]:hover,
+.lojas-plataformas[data-plataforma="netflix"]:hover {
+  background-color: #e60012;
+}
+
+.lojas-plataformas[data-plataforma="appstore"]:hover,
+.lojas-plataformas[data-plataforma="googleplay"]:hover {
+  background-color: #ffffff;
+}
+
+.logo-pc-img {
+  max-width: 2.8rem;
+  height: 2rem;
+  object-fit: contain;
+  display: block;
+  width: 100%;
+}
+
+.logo-ps4-e-ps4-img {
+  max-width: 9.142rem;
+  height: 2rem;
+  object-fit: contain;
+  display: block;
+}
+
+.logo-xbox-series-img {
+  max-width: 16rem;
+  height: 2rem;
+  object-fit: contain;
+  display: block;
+}
+
+.logo-nintendo-switch-2-img {
+  max-width: 3.358rem;
+  height: 3rem;
+  object-fit: contain;
+  display: block;
+}
+
+.logo-app-store-img {
+  max-width: 11.931rem;
+  height: 3rem;
+  object-fit: contain;
+  display: block;
+}
+
+.logo-netflix-games {
+  max-width: 6.98rem;
+  height: 3rem;
+  object-fit: contain;
+  display: block;
+}
+
+.logo-xbox {
+  max-width: 6.811rem;
+  height: 2rem;
+  object-fit: contain;
+  display: block;
+}
+
+.logo-switch-img {
+  max-width: 9.142rem;
+  height: 2rem;
+  object-fit: contain;
+  display: block;
+}
+
+.logo-google-play {
+  max-width: 12.428rem;
+  height: 3rem;
+  object-fit: contain;
+  display: block;
+}

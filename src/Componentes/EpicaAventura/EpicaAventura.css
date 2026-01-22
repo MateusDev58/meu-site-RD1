@@ -1,0 +1,106 @@
+.caixa-1 {
+  position: relative;
+  z-index: 0;
+  padding: 8rem 8rem;
+  background-image: url("/imagem-fundo-meio.png");
+  background-repeat: no-repeat;
+  background-size: 100% 47%;
+  background-position: center bottom;
+  overflow: hidden;
+  width: 100%;
+}
+
+.caixa-1::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("/imagem-fundo-inicio.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 36%;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.caixa-conteudo {
+  position: relative;
+  z-index: 1;
+  padding: 1rem 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  max-width: 120rem;
+}
+
+.caixa-2,
+.caixa-3 {
+  width: 100%;
+  background-image: url("/imagem-fundo-meio.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 8rem 8rem;
+  position: relative;
+  z-index: 0;
+}
+
+.caixa-3::after {
+  content: "";
+  position: absolute;
+  bottom: -5rem;
+  left: 0;
+  width: 100%;
+  height: 25rem;
+  background-image: url("/imagem-fundo-fim.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.personagem-epica {
+  max-width: 116.1rem;
+  width: 100%;
+  height: auto;
+}
+
+.titulo-h2 {
+  font-family: "Bebas Neue", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: 0.15rem;
+  font-size: 5.5rem;
+  color: #ffffff;
+  max-width: 58rem;
+}
+
+.caixa-texto-epica {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.texto-epica-p {
+  width: 100%;
+  max-width: 65rem;
+  font-size: 2rem;
+  font-family: "Inter", sans-serif;
+  color: #e8e8e8;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.logo-red-dead-epica {
+  max-width: 64rem;
+  height: 3.5rem;
+}
+
+.logo-red-dead-undead-nightmare {
+  max-width: 64rem;
+  height: 6rem;
+}

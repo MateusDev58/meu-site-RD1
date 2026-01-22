@@ -1,0 +1,228 @@
+@media screen and (max-width: 1279px) {
+  .caixa-loja-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .caixa-rdr-e-undead-nightmare {
+    order: -1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .caixa-adquira {
+    padding: 0rem;
+  }
+
+  .texto-loja {
+    max-width: 64rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .caixa-loja {
+    padding: 7.2rem 0rem;
+  }
+
+  .caixa-loja-conteudo {
+    display: flex;
+    padding: 0rem 7.2rem;
+    gap: 2rem;
+  }
+
+  .capa-red-dead-redemption-e-undead-nightmare {
+    max-width: 64.8rem;
+  }
+
+  .adquira-h2 {
+    font-size: 4.5rem;
+  }
+
+  .texto-loja {
+    font-size: 1.8rem;
+  }
+
+  .logo-pc-img {
+    max-width: 2.519rem;
+    height: 1.8rem;
+  }
+
+  .logo-ps4-e-ps4-img {
+    max-width: 8.228rem;
+    height: 1.8rem;
+  }
+
+  .logo-xbox-series-img {
+    max-width: 14.4rem;
+    height: 1.8rem;
+  }
+
+  .logo-nintendo-switch-2-img {
+    max-width: 3.022rem;
+    height: 2.7rem;
+  }
+
+  .logo-app-store-img {
+    max-width: 10.738rem;
+    height: 2.7rem;
+  }
+
+  .logo-netflix-games {
+    max-width: 6.281rem;
+    height: 2.7rem;
+  }
+
+  .logo-xbox {
+    max-width: 6.13rem;
+    height: 2.7rem;
+  }
+
+  .logo-switch-img {
+    max-width: 8.228rem;
+    height: 1.8rem;
+  }
+
+  .logo-google-play {
+    max-width: 11.184rem;
+    height: 2.7rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .caixa-loja {
+    padding: 3.2rem 0rem;
+  }
+
+  .caixa-loja-conteudo {
+    padding: 0rem 3.2rem;
+  }
+
+  .caixa-loja-conteudo::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("background-celular.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-mask-image: url("/background-loja-mask.png");
+    mask-image: url("/mask-mobile.png");
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    -webkit-mask-position: center;
+    mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    z-index: -1;
+    pointer-events: none;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+  }
+
+  .capa-red-dead-redemption-e-undead-nightmare {
+    width: 100%;
+    max-width: 52.725rem;
+  }
+
+  .caixa-adquira {
+    gap: 2rem;
+  }
+
+  .adquira-h2 {
+    font-size: 4rem;
+  }
+
+  .texto-loja,
+  .compre-ja-loja-h2 {
+    font-size: 1.6rem;
+  }
+
+  .lojas-plataformas {
+    max-width: 31.2rem;
+    height: 5.6rem;
+    padding: 0 4.8rem;
+  }
+
+  .logo-pc-img {
+    max-width: 2.239rem;
+    height: 1.6rem;
+  }
+
+  .logo-ps4-e-ps4-img {
+    max-width: 7.314rem;
+    height: 1.6rem;
+  }
+
+  .logo-xbox-series-img {
+    max-width: 12.8rem;
+    height: 1.6rem;
+  }
+
+  .logo-nintendo-switch-2-img {
+    max-width: 2.686rem;
+    height: 2.4rem;
+  }
+
+  .logo-app-store-img {
+    max-width: 9.545rem;
+    height: 2.4rem;
+  }
+
+  .logo-netflix-games {
+    max-width: 5.583rem;
+    height: 2.4rem;
+  }
+
+  .logo-xbox {
+    max-width: 5.448rem;
+    height: 1.6rem;
+  }
+
+  .logo-switch-img {
+    max-width: 7.314rem;
+  }
+
+  .logo-google-play {
+    max-width: 9.942rem;
+  }
+}
+
+@media screen and (max-width: 703px) {
+  .texto-loja {
+    width: 100%;
+    max-width: 63.9rem;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .capa-red-dead-redemption-e-undead-nightmare {
+    max-width: 40.2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .capa-red-dead-redemption-e-undead-nightmare {
+    max-width: 32.7rem;
+  }
+
+  .lojas-plataformas {
+    width: 100%;
+    max-width: clamp(12rem, 40vw, 21rem);
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .caixa-lojas-plataformas {
+    grid-template-columns: 1fr;
+  }
+
+  .lojas-plataformas {
+    width: 100%;
+    max-width: 100%;
+  }
+}

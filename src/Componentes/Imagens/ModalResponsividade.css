@@ -1,0 +1,33 @@
+@media screen and (max-width: 1023px) {
+  .modal-overlay,
+  .caixa-botao-modal {
+    padding: 1.8rem;
+  }
+
+  .caixa-botao-passar-modal {
+    width: 11rem;
+    height: 5.6rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .modal-overlay,
+  .caixa-botao-modal {
+    padding: 1.6rem;
+  }
+
+  .caixa-botao-passar-modal {
+    width: 9.8rem;
+    height: 5rem;
+  }
+
+  .seta-modal-img {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .modal-fechar-botao {
+    width: 3rem;
+    height: 3rem;
+  }
+}
